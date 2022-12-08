@@ -1,0 +1,29 @@
+<app-nav></app-nav>
+<div class="container">
+    <div class="row mt-4">
+        <table class="table">
+            <thead>
+              <tr>
+                
+                
+                <th scope="col">admno</th>
+                <th scope="col">name</th>
+                <th scope="col">college</th>
+                <th scope="col">rollno</th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let i of data">
+               
+                <td>{{i.admno}}</td>
+                <td>{{i.name}}</td>
+                <td>{{i.college}}</td>
+                <td>{{i.rollno}}</td>
+
+              </tr>
+              
+            </tbody>
+          </table>
+    </div>
+</div>
